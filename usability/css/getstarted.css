@@ -1,0 +1,26 @@
+.getstarted-image-text {
+	padding: 5%;
+}
+
+.getstarted-image {
+	width: 40vw;
+	float: right;
+	padding-left: 5%;
+}
+
+.getstarted-image img {
+	width: 100%;
+}
+
+.getstarted-text h2 {
+	font-size: 52px;
+	color: #183b56;
+	padding-top: 30px;
+}
+
+.getstarted-text p {
+	padding: 15px 0 60px 0;
+	font-size: 30px;
+	font-weight: 200;
+	color: #183b56;
+}
