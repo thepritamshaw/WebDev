@@ -1,8 +1,9 @@
 .top-banner {
 	background-image: url("assets/asset 32.png");
-	background-color: rgb(212, 85, 144);
+	background-color: #e74694;
 	color: #fff;
-	padding: 10px;
-	font-weight: 100;
+	padding: 17px;
+	font-weight: 50;
+	font-size: 13px;
 	text-align: center;
 }

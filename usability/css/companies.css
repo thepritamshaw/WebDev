@@ -1,0 +1,25 @@
+.companies {
+	margin-top: 30px;
+}
+
+.companies p {
+	text-align: center;
+	font-size: 18px;
+	color: #183b56;
+}
+
+.company-logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.company-logos img {
+	height : 45px;
+	padding: 20px;
+}
+
+#GoDaddy {
+	height: 30px;
+}

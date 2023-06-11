@@ -1,26 +1,40 @@
 .getstarted-image-text {
-	padding: 5%;
+	padding: 3% 5%;
+	margin-top: 35px;
 }
 
 .getstarted-image {
-	width: 40vw;
+	width: 600px;
 	float: right;
-	padding-left: 5%;
+	padding: 0 0 0 10%;
 }
 
 .getstarted-image img {
 	width: 100%;
 }
 
+.getstarted-text {
+	width: 50vw;
+}
+
 .getstarted-text h2 {
-	font-size: 52px;
+	font-size: 48px;
 	color: #183b56;
-	padding-top: 30px;
+	line-height: 57.6px;
+	padding-top: 40px;
+	font-family: "Averta PE", sans-serif;
+	font-weight: 600;
 }
 
 .getstarted-text p {
-	padding: 15px 0 60px 0;
-	font-size: 30px;
-	font-weight: 200;
+	padding: 15px 10px 60px 0;
+	font-size: 23px;
+	font-weight: 300;
 	color: #183b56;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
