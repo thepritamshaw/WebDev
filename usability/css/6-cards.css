@@ -1,0 +1,37 @@
+.six-cards {
+	display: grid;
+	grid-template-columns: 20vw 20vw 20vw;
+	justify-content: center;
+	grid-gap: 60px;
+	color: #183b56;
+	margin: 100px 0;
+}
+
+.swiss {
+	grid-column: 1/4;
+}
+
+.swiss h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.six-cards-element, .swiss {
+	text-align: center;
+}
+
+.six-cards-element img {
+	width: 40px;
+}
+
+.six-cards-element h3 {
+	font-size: 22px;
+	font-weight: 700;
+	margin: 5px 0 10px 0;
+}
+
+.six-cards-element p {
+	font-weight: 400;
+	margin-bottom: 30px;
+}

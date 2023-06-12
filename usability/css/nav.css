@@ -77,15 +77,16 @@ nav {
 	align-items: center;
 }
 
-.signin {
+.white-button-blue-text {
 	padding: 12px 24px;
 	color: #183b56;
 	border: 1px solid #183b56;
 	border-radius: 4px;
 	margin: 0 10px;
+	font-weight: 700;
 }
 
-.signin:hover {
+.white-button-blue-text:hover {
 	border: 1px solid #2294ed;
 	color: #2294ed;
 }
@@ -96,6 +97,7 @@ nav {
 	border-radius: 4px;
 	padding: 12px 24px;
 	color: #ffffff;
+	font-weight: 700;
 }
 
 .blue-button-white-text:hover {
