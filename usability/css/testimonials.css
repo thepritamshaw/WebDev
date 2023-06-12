@@ -74,11 +74,24 @@
 	width: 475px;
 }
 
+.design-professionals {
+	margin-bottom: 50px;
+}
+
 .marketers {
 	display: block;
+	margin-top: 0;
+	margin-bottom: 110px;
 }
 
 .marketers-image img {
 	float: right;
-	width: 450px;
+	margin-top: 25px;
+	width: 41vw;
+}
+
+.marketers-text {
+	width: 40vw;
+	margin-right: 60px;
+	display: grid;
 }
