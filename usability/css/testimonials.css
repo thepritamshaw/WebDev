@@ -11,7 +11,7 @@
 }
 
 .testimonial-image img {
-	width: 550px;
+	width: 100%;
 }
 
 .testimonial h3, h2, p, label {
@@ -75,13 +75,13 @@
 }
 
 .design-professionals {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
 .marketers {
 	display: block;
 	margin-top: 0;
-	margin-bottom: 110px;
+	margin-bottom: 130px;
 }
 
 .marketers-image img {

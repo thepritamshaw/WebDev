@@ -4,9 +4,9 @@
 }
 
 .getstarted-image {
-	width: 600px;
+	width: 575px;
 	float: right;
-	padding: 0 0 0 10%;
+	/* padding: 0 0 0 10%; */
 }
 
 .getstarted-image img {
@@ -14,14 +14,14 @@
 }
 
 .getstarted-text {
-	width: 50vw;
+	width: 40vw;
 }
 
 .getstarted-text h2 {
 	font-size: 48px;
 	color: #183b56;
 	line-height: 57.6px;
-	padding-top: 40px;
+	padding-top: 7%;
 	font-family: "Averta PE", sans-serif;
 	font-weight: 600;
 }

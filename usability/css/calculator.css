@@ -1,0 +1,91 @@
+.calculator {
+	background-color: #183b56;
+	color: #b9cde4;
+	padding: 0 5%;
+}
+
+.one-dollar-image {
+	background-image: url("../assets/asset\ 40.png");
+	float: right;
+	margin-top: 25px;
+	width: 44.35vw;
+	height: 41.5vw;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.one-dollar-image img {
+	width: 50%;
+}
+
+.calculator-text {
+	padding: 7% 0;
+}
+
+.calculator-text h3 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.text-h5 {
+	margin: 25px 0;
+	font-size: 20px;
+}
+
+.ul-panel h3 {
+	font-size: 20px;
+}
+
+.ul-panel ul {
+	columns: 2;
+	width: 550px;
+	margin: 20px 0 60px 15px;
+}
+
+.ul-panel ul li {
+	list-style: disc !important;
+	padding: 5px 0;
+	color: #b9cde4;
+}
+
+.learn-more-calc {
+	color: #b9cde4;
+}
+
+.price-1-dollar {
+	position: absolute;
+}
+
+.startingfrom-perresponse {
+	color: #183b56;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.price-dollar {
+	white-space: nowrap;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.usd {
+	color: #8ba6c0;
+	font-size: 22px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.one-dollar {
+	color: #2294ed;
+	font-size: 60px;
+	font-weight: 600;
+	display: inline-block;
+	font-family: Averta PE,sans-serif;
+	height: 65px;
+	margin-left: -2px;
+}
