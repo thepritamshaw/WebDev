@@ -1,17 +1,19 @@
 .testimonial {
 	display: grid;
-	grid-template-columns: 550px 40vw;
+	grid-template-columns: 36vw 40vw;
 	grid-gap: 0 60px;
 	justify-content: center;
+	align-items: center;
 	margin: 90px 8%;
-}
-
-.testimonial-image {
-	grid-row: 1/8;
 }
 
 .testimonial-image img {
 	width: 100%;
+}
+
+.testimonial-text {
+	display: grid;
+	margin-right: 20px;
 }
 
 .testimonial h3, h2, p, label {
@@ -70,12 +72,8 @@
 	margin-left: 40px;
 }
 
-.product-managers-image img{
-	width: 475px;
-}
-
-.design-professionals {
-	margin-bottom: 0px;
+.design-profesionals-image {
+	margin-top: 15%;
 }
 
 .marketers {
@@ -94,4 +92,31 @@
 	width: 40vw;
 	margin-right: 60px;
 	display: grid;
+}
+
+@media (max-width:1100px) {
+	.marketers-image img{
+		margin-top: 50px;
+	}
+}
+
+@media (max-width:1000px) {
+	.marketers-image img{
+		margin-top: 100px;
+	}
+}
+
+@media (max-width:840px) {
+	.testimonial {
+		display: grid;
+		grid-template-columns: 80vw;
+	}
+
+	.marketers-image img {
+		float: none;
+	}
+
+	.marketers-text, .marketers-image img {
+		width: 80vw;
+	}
 }

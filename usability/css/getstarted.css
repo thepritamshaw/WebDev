@@ -1,12 +1,12 @@
 .getstarted-image-text {
 	padding: 3% 5%;
 	margin-top: 35px;
+	background-color: #fff;
 }
 
 .getstarted-image {
 	width: 575px;
 	float: right;
-	/* padding: 0 0 0 10%; */
 }
 
 .getstarted-image img {
@@ -37,4 +37,21 @@
 	content: "";
 	display: table;
 	clear: both;
+}
+
+@media (max-width: 990px) {
+	.getstarted-image-text {
+		display: grid;
+		justify-content: center;
+	}
+
+	.getstarted-image {
+		float: none;
+		width: 75vw;
+	}
+
+	.getstarted-text {
+		width: 75vw;
+		text-align: center;
+	}
 }

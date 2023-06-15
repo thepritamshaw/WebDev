@@ -1,10 +1,10 @@
 .sub-footer {
 	display: grid;
-	grid-template-columns: 15vw 15vw 18vw 18vw;
+	grid-template-columns: 15vw 15vw 18vw 22vw;
 	justify-content: center;
 	text-align: center;
-	padding: 1.1% 0;
 	background-color: #b9cde4;
+	padding: 1.1% 0;
 }
 
 .sub-footer a {
@@ -46,4 +46,15 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+@media (max-width:750px)
+{
+	.sub-footer {
+		grid-template-columns: 80vw;
+	}
+
+	.sub-footer a, .footer-box-social {
+		padding: 10px 0;
+	}
 }

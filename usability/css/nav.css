@@ -3,7 +3,6 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
-	/* font-size: 14px; */
 	font-weight: 500;
 	letter-spacing: .5px;
 	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -11,8 +10,7 @@
 
 nav {
 	display: flex;
-	/* width: 71px; */
-	padding: 25px 20px 0 20px;
+	padding: 25px 20px 0 5%;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;
@@ -21,7 +19,7 @@ nav {
 .titlecontainer {
 	display: flex;
 	width: 545px;
-	margin-left: 5vw;
+	/* margin-left: 5vw; */
 }
 
 .become-a-tester {
@@ -36,10 +34,12 @@ nav {
 .nav-and-sign {
 	display: flex;
 	align-items: center;
+	background-color: #fff;
 }
 
 .nav-menu {
 	display: inline-flex;
+	background-color: #fff;
 }
 
 .nav-menu-item {
@@ -59,7 +59,6 @@ nav {
 	position: absolute;
 	margin-top: 13px;
 	width: 180px;
-	z-index: 2;
 }
 
 .dropdown-menu li {
@@ -75,6 +74,7 @@ nav {
 	padding-right: 5vw;
 	display: flex;
 	align-items: center;
+	background-color: #fff;
 }
 
 .white-button-blue-text {
@@ -84,6 +84,10 @@ nav {
 	border-radius: 4px;
 	margin: 0 10px;
 	font-weight: 700;
+}
+
+.signin {
+	background-color: #fff;
 }
 
 .white-button-blue-text:hover {
@@ -96,11 +100,106 @@ nav {
 	border: 1px solid #2294ed;
 	border-radius: 4px;
 	padding: 12px 24px;
-	color: #ffffff;
 	font-weight: 700;
+	color: #fff;
 }
 
 .blue-button-white-text:hover {
 	background-color: #0061ad;
 	border: 1px solid #0061ad;
+}
+
+@media (max-width : 675px) {
+	nav {
+		display: flex;
+	}
+
+	.titlecontainer {
+		justify-content: space-between;
+	}
+
+	.nav-and-sign, .nav-menu, .sign {
+		display: grid;
+		position: absolute;
+		width: 100%;
+		top: 54px;
+		left: 0;
+		transform: translateY(-100%);
+		z-index: -1;
+		/* transition: .6s; */
+		align-items: left;
+	}
+
+	/* nav ul li {
+		padding: 0;
+	} */
+
+	.navbartoggler {
+		display: inline-grid !important;
+		margin: 5px 0 5px 0;
+	}
+
+	.bar {
+		width: 23px;
+		height: 3px;
+		margin-bottom: 2px;
+		background: #183b56;
+		border-radius: 20%;
+		transition: .4s;
+	}
+
+	.become-a-tester {
+		display: none;
+	}
+
+	.nav-menu-item, .signin, .signup {
+		margin: 0 25px;
+	}
+
+	.signup {
+		margin-bottom: 10px;
+	}
+
+	.signin {
+		margin-top: 10px;
+	}
+}
+
+#toggle {
+	display: none;
+}
+
+input:checked~nav ul {
+	transform: translateY(0);
+	z-index: 2;
+	top: 78px;
+}
+
+input:checked~nav .nav-and-sign {
+	transform: translateY(0);
+	z-index: 0;
+}
+
+input:checked~nav .sign {
+	transform: translateY(0);
+	z-index: 0;
+	top: 254px;
+	grid-gap: 10px;
+}
+
+input:checked~nav .titlecontainer .navbartoggler {
+	margin-top: 12px;
+}
+
+input:checked~nav .titlecontainer .navbartoggler .bar:nth-child(1) {
+	position: absolute;
+	transform: rotate(45deg);
+}
+
+input:checked~nav .titlecontainer .navbartoggler .bar:nth-child(2) {
+	display: none;
+}
+
+input:checked~nav .titlecontainer .navbartoggler .bar:nth-child(3) {
+	transform: rotate(-45deg);
 }

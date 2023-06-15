@@ -2,14 +2,15 @@
 	background-color: #183b56;
 	color: #b9cde4;
 	padding: 0 5%;
+	align-items: center;
 }
 
 .one-dollar-image {
 	background-image: url("../assets/asset\ 40.png");
 	float: right;
 	margin-top: 25px;
-	width: 44.35vw;
-	height: 41.5vw;
+	width: 600px;
+	height: 555px;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -41,14 +42,24 @@
 
 .ul-panel ul {
 	columns: 2;
-	width: 550px;
+	/* width: 550px; */
 	margin: 20px 0 60px 15px;
 }
 
 .ul-panel ul li {
 	list-style: disc !important;
 	padding: 5px 0;
+	margin-right: 25px;
 	color: #b9cde4;
+}
+
+.buttons-calculator {
+	display: flex;
+	align-items: center;
+}
+
+.text-or {
+	margin: 0 8px 0 15px;
 }
 
 .learn-more-calc {
@@ -88,4 +99,59 @@
 	font-family: Averta PE,sans-serif;
 	height: 65px;
 	margin-left: -2px;
+}
+
+@media (max-width: 1150px) {
+	.ul-panel ul {
+		columns: 1;
+	}
+
+	.one-dollar-image {
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.ul-panel ul {
+		columns: 2;
+	}
+
+	.one-dollar-image {
+		float: none;
+		width: 75.4vw;
+		height: 69.8vw;
+		margin-left: 5%;
+	}
+
+	.buttons-calculator, .calculator-text h3 {
+		justify-content: center;
+		text-align: center;
+	}
+
+	@media (max-width:480px) {
+		.ul-panel ul {
+			columns: 1;
+		}
+
+		.buttons-calculator {
+			display: block;
+		}
+
+		.text-or {
+			margin: 25px 0;
+		}
+
+		.startingfrom-perresponse {
+			font-size: 12px;
+		}
+
+		.usd {
+			font-size: 15px;
+		}
+		
+		.one-dollar {
+			font-size: 42px;
+			height: 45px;
+		}
+	}
 }

@@ -2,8 +2,11 @@
 	background-image: url("assets/asset 32.png");
 	background-color: #e74694;
 	color: #fff;
-	padding: 17px;
 	font-weight: 500;
 	font-size: 14px;
 	text-align: center;
+}
+
+.top-banner-text {
+	padding: 17px;
 }

@@ -22,14 +22,21 @@
 
 <body>
 	<section class="top-banner">
-		<a href="https://usabilityhub.com/product/prototype-testing" class="top-banner">📣 Figma prototype
-			testing just got a whole lot better! Read more →</a>
+		<div class="top-banner-text"><a href="https://usabilityhub.com/product/prototype-testing"
+				class="top-banner">📣 Figma prototype
+				testing just got a whole lot better! Read more →</a></div>
 	</section>
+	<input type="checkbox" id="toggle">
 	<nav>
 		<div class="titlecontainer">
 			<a href="https://usabilityhub.com/"><img src="assets/asset 27.svg" alt="UsabilityHub"></a>
 			<a href="https://usercrowd.com/?utm_source=usabilityhub&utm_medium=top_nav"
 				class="become-a-tester">Become&nbsp;a&nbsp;tester</a>
+			<label for="toggle" class="navbartoggler">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</label>
 		</div>
 		<div class="nav-and-sign">
 			<ul class="nav-menu">
@@ -102,42 +109,42 @@
 			<h3>Card sorting</h3>
 			<p>Discover how people group and label information.</p>
 			<a href="https://usabilityhub.com/product/card-sorting"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 		<div class="six-cards-element">
 			<img src="assets/asset 13.svg" alt="Prototype tests">
 			<h3>Prototype tests</h3>
 			<p>Discover how people navigate your Figma prototypes.</p>
 			<a href="https://usabilityhub.com/product/prototype-testing"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 		<div class="six-cards-element">
 			<img src="assets/asset 14.svg" alt="First click tests">
 			<h3>First click tests</h3>
 			<p>Test interaction with first click and navigation tests.</p>
 			<a href="https://usabilityhub.com/product/first-click-tests"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 		<div class="six-cards-element">
 			<img src="assets/asset 15.svg" alt="Design surveys">
 			<h3>Design surveys</h3>
 			<p>Get feedback on images, videos or audio files.</p>
 			<a href="https://usabilityhub.com/product/design-surveys"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 		<div class="six-cards-element">
 			<img src="assets/asset 16.svg" alt="Preference tests">
 			<h3>Preference tests</h3>
 			<p>Find out which designs users prefer and why.</p>
 			<a href="https://usabilityhub.com/product/preference-tests"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 		<div class="six-cards-element">
 			<img src="assets/asset 17.svg" alt="Five second tests">
 			<h3>Five second tests</h3>
 			<p>Test comprehensibility by measuring first impressions.</p>
 			<a href="https://usabilityhub.com/product/five-second-tests"
-				class="learn-more white-button-blue-text">Learn more→</a>
+				class="learn-more white-button-blue-text">Learn&nbsp;more→</a>
 		</div>
 	</section>
 	<section class="testimonials">
@@ -145,25 +152,29 @@
 			<div class="design-profesionals-image testimonial-image">
 				<img src="assets/asset 18.png" alt="Design Profesionals Image">
 			</div>
-			<h3>Effortless validation for</h3>
-			<h2>Design professionals</h2>
-			<p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and
-				delightful experiences for your users.</p>
-			<img class="c-logo" src="assets/asset 19.png" alt="ChartMogul">
-			<label class="h3-text">The navigation test is god's gift to UI designers, it probably has the
-				best
-				power-to-simplicity ratio of any software, ever.</label>
-			<div class="ceo">
-				<img src="assets/asset 20.png" alt="Nick Franklin">
-				<label class="name-ceo">Nick Franklin</label>
-				<label class="position">Chief Executive Officer</label>
+			<div class="design-professionals-text testimonial-text">
+				<h3>Effortless validation for</h3>
+				<h2>Design professionals</h2>
+				<p>Test interfaces, interaction flows, iconography and more, to help you create
+					intuitive and
+					delightful experiences for your users.</p>
+				<img class="c-logo" src="assets/asset 19.png" alt="ChartMogul">
+				<label class="h3-text">The navigation test is god's gift to UI designers, it probably
+					has the
+					best
+					power-to-simplicity ratio of any software, ever.</label>
+				<div class="ceo">
+					<img src="assets/asset 20.png" alt="Nick Franklin">
+					<label class="name-ceo">Nick Franklin</label>
+					<label class="position">Chief Executive Officer</label>
+				</div>
 			</div>
 		</div>
 		<div class="marketers testimonial">
 			<div class="marketers-image testimonial-image">
 				<img src="assets/asset 21.png" alt="Design Profesionals Image">
 			</div>
-			<div class="marketers-text">
+			<div class="marketers-text testimonial-text">
 				<h3>Optimisation for</h3>
 				<h2>Marketers</h2>
 				<p>Fine-tune landing pages, messaging, and creative, helping you optimise conversion
@@ -182,17 +193,21 @@
 			<div class="product-managers-image testimonial-image">
 				<img src="assets/asset 24.png" alt="Design Profesionals Image">
 			</div>
-			<h3>Easier decision making for</h3>
-			<h2>Product managers</h2>
-			<p>Ensure you're delivering the right features to the right customers by validating product
-				concepts with your target audience.</p>
-			<img class="c-logo" src="assets/asset 25.png" alt="ChartMogul">
-			<label class="h3-text">Adopting UsabilityHub got us into the habit of asking our users questions
-				before locking in decisions.</label>
-			<div class="ceo">
-				<img src="assets/asset 26.png" alt="Nick Franklin">
-				<label class="name-ceo">Ron Diorio</label>
-				<label class="position">VP Innovation & New Products</label>
+			<div class="product-managers-text testimonial-text">
+				<h3>Easier decision making for</h3>
+				<h2>Product managers</h2>
+				<p>Ensure you're delivering the right features to the right customers by validating
+					product
+					concepts with your target audience.</p>
+				<img class="c-logo" src="assets/asset 25.png" alt="ChartMogul">
+				<label class="h3-text">Adopting UsabilityHub got us into the habit of asking our users
+					questions
+					before locking in decisions.</label>
+				<div class="ceo">
+					<img src="assets/asset 26.png" alt="Nick Franklin">
+					<label class="name-ceo">Ron Diorio</label>
+					<label class="position">VP Innovation & New Products</label>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -239,10 +254,12 @@
 			</div>
 			<div class="buttons-calculator">
 				<a href="https://app.usabilityhub.com/research-panel-calculator"
-					class="panel-calculator blue-button-white-text">Try the panel calculator</a>
-				or
+					class="panel-calculator blue-button-white-text">Try&nbsp;the&nbsp;panel&nbsp;calculator</a>
+				<span>
+					<div class="text-or">or</div>
+				</span>
 				<a href="https://usabilityhub.com/product/research-panel"
-					class="learn-more-calc white-button-blue-text">Learn more</a>
+					class="learn-more-calc white-button-blue-text">Learn&nbsp;more</a>
 			</div>
 		</div>
 	</section>
@@ -299,18 +316,21 @@
 		<div class="footer-box-social">
 			<ul>
 				<li><a href="https://www.facebook.com/usabilityhubapp/" target="_blank"><img
-							src="assets/asset 28.png"
-							alt="Facebook"></a><div class="placeholder"></div></li>
+							src="assets/asset 28.png" alt="Facebook"></a>
+					<div class="placeholder"></div>
+				</li>
 				<li><a href="https://twitter.com/usabilityhub" target="_blank"><img
-							src="assets/asset 29.png"
-							alt="Linkedin"></a><div class="placeholder"></div></li>
+							src="assets/asset 29.png" alt="Linkedin"></a>
+					<div class="placeholder"></div>
+				</li>
 				<li><a href="https://www.linkedin.com/company/usabilityhub" target="_blank"><img
-							src="assets/asset 30.png"
-							alt="Twitter"></a>
-						<div class="placeholder"></div></li>
+							src="assets/asset 30.png" alt="Twitter"></a>
+					<div class="placeholder"></div>
+				</li>
 				<li><a href="https://www.youtube.com/@usabilityhubHQ" target="_blank"><img
-							src="assets/asset 31.png"
-							alt="YouTube"></a><div class="placeholder"></div></li>
+							src="assets/asset 31.png" alt="YouTube"></a>
+					<div class="placeholder"></div>
+				</li>
 			</ul>
 		</div>
 	</section>
