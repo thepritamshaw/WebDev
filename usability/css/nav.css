@@ -48,6 +48,7 @@ nav {
 
 .nav-menu-item a, .dropdown {
 	color: #183b56;
+	position: relative;
 }
 
 .nav-menu-item a:hover, .dropdown:hover {
@@ -57,7 +58,7 @@ nav {
 .dropdown-menu {
 	display: none;
 	position: absolute;
-	margin-top: 13px;
+	margin-top: -40px;
 	width: 180px;
 }
 
@@ -126,13 +127,8 @@ nav {
 		left: 0;
 		transform: translateY(-100%);
 		z-index: -1;
-		/* transition: .6s; */
 		align-items: left;
 	}
-
-	/* nav ul li {
-		padding: 0;
-	} */
 
 	.navbartoggler {
 		display: inline-grid !important;
