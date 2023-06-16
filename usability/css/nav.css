@@ -148,7 +148,7 @@ nav {
 		transition: .4s;
 	}
 
-	.bar:nth-child(1) {
+	.bar:nth-child(1), .bar:nth-child(2) {
 		margin-bottom: 1px;
 	}
 
