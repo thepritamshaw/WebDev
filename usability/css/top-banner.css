@@ -1,6 +1,8 @@
 .top-banner {
 	background-image: url("assets/asset 32.png");
+	background-position: overlay;
 	background-color: #e74694;
+	background-size: cover;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;

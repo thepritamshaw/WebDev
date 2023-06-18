@@ -1,14 +1,96 @@
+.posssibilities-section {
+	display: grid;
+	grid-template-columns: repeat(18vw, 4);
+	justify-content: center;
+	margin: 70px 0;
+}
+
+.possibilities {
+	text-align: center;
+	grid-column: 1/5;
+	margin-bottom: 40px;
+}
+
+.possibilities h2 {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 28px;
+}
+
 .possibility-card {
-	height: 2000px;
-	width: 1000px;
+	height: 21.6vw;
+	width: 18vw;
+	background-size: cover;
+	display: grid;
+	position: relative;
+	transition: .1s;
+	margin: 0 20px;
+}
+
+.possibility-card:hover {
+	box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card1 {
 	background-image: url("../assets/asset\ 36.jpeg");
-	flex: 0 auto;
+}
+
+.card2 {
+	background-image: url("../assets/asset\ 37.jpeg");
+}
+
+.card3 {
+	background-image: url("../assets/asset\ 38.jpeg");
+}
+
+.card4 {
+	background-image: url("../assets/asset\ 39.jpeg");
 }
 
 .possibility-card a {
-	width: 100%;
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+}
+
+.overlay {
 	height: 100%;
-	min-width: 200px;
-	border: 1px solid black;
-	background-size: cover;
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2))
+}
+
+@media (max-width: 1070px) {
+	.posssibilities-section {
+		grid-template-columns: repeat(43vw, 2);
+	}
+
+	.possibilities {
+		grid-column: 1/3;
+	}
+
+	.possibility-card {
+		height: 200px;
+		width: 43vw;
+		margin: 10px 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	.posssibilities-section {
+		grid-template-columns: 85vw;
+	}
+
+	.possibilities {
+		grid-column: 1/2;
+	}
+
+	.possibility-card {
+		height: 200px;
+		width: 85vw;
+		margin: 10px 0px;
+	}
 }
